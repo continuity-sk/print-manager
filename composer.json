@@ -1,0 +1,30 @@
+{
+    "name": "continuity/print-manager",
+    "description": "PHP Print Manager with PJL and Socket Print Support",
+    "homepage": "https://github.com/continuity-sk/print-manager",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Michal Drobny",
+        "email": "michal.drobny@continuity.sk",
+        "homepage": "https://continuity.sk",
+        "role": "Developer"
+      },
+      {
+        "name": "Miroslav Hudak",
+        "email": "miroslav.hudak@continuity.sk",
+        "homepage": "https://continuity.sk",
+        "role": "Developer"
+      }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+      "php" : "^7.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "Continuity\\PrintManager\\": "src"
+      }
+    }
+}
