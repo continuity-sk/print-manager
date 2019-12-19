@@ -26,11 +26,17 @@ namespace Continuity\PrintManager\Contents
             $this->_type = $type;
         }
 
+        /**
+         * @return string
+         */
         public function getType(): string
         {
             return $this->_type;
         }
 
+        /**
+         * @return string
+         */
         public function getData(): string
         {
             if ($this->_data instanceof SourceInterface)

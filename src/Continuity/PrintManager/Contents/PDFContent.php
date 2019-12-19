@@ -3,6 +3,8 @@
 
 namespace Continuity\PrintManager\Contents;
 
+use Continuity\PrintManager\Contents\Sources\FileSource;
+
 class PDFContent
     extends AbstractContent
 {
